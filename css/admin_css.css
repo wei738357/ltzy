@@ -1,0 +1,317 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cls {
+    clear: both;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+}
+
+.al_lt{text-align:left;}
+.al_rt{text-align:right;}
+.al_ct{text-align:center;}
+
+.mt_10{margin-top:10px;}
+.mt_15{margin-top:15px;}
+.mt_20{margin-top:20px;}
+.mt_30{margin-top:30px;}
+.ml_45{margin-left:45px;}
+.h_20{height:20px;}
+.ml_5{margin-left:5px;}
+.ml_60{margin-left:60px;}
+.ml_100{margin-left:100px;}
+
+img {
+    border: 0;
+}
+
+.f_12 {
+    font-size: 12px;
+}
+
+.f_14 {
+    font-size: 14px;
+}
+
+.f_16 {
+    font-size: 16px;
+}
+
+.f_18 {
+    font-size: 18px;
+}
+
+.f_20 {
+    font-size: 20px;
+}
+
+.f_22 {
+    font-size: 22px;
+}
+
+.f_24 {
+    font-size: 24px;
+}
+
+.f_26 {
+    font-size: 26px;
+}
+
+.f_30 {
+    font-size: 30px;
+}
+
+.f_28 {
+    font-size: 28px;
+}
+
+.f_32 {
+    font-size: 32px;
+}
+
+.f_40 {
+    font-size: 40px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clr_f {
+    color: #FFFFFF;
+}
+
+.f_wei {
+    font-weight: bold;
+}
+
+.f_norm {
+    font-weight: normal;
+}
+
+.f_yahei {
+    font-family: Microsoft YaHei;
+}
+
+.clr_3 {
+    color: #333;
+}
+
+.clr_blu {
+    color: #007ccf;
+}
+
+.clr_red {
+    color: #c00000;
+}
+
+.ver_mid {
+    vertical-align: middle;
+}
+
+.top {
+    background: url(../imgs/admin_top_bg.png) repeat-x;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.left {
+    background: #eaeff3;
+    width: 180px;
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    border-right: 1px solid #cbd0d4;
+}
+
+    .left ul {
+        margin-top: 10px;
+        margin-left:10px;
+        margin-right:10px;
+    }
+
+        .left ul li {
+            list-style: none;
+            padding:10px 0;
+            text-align: left;
+            width:100%;
+            border-bottom:1px solid #666;
+        }
+
+            .left ul li a {
+                color: #000;
+            }
+
+                .left ul li a:hover {
+                    color: #007cc2;
+                }
+
+a.default {
+    color: #000;
+    text-decoration: none;
+}
+
+    a.default:hover {
+        color: #007cc2;
+    }
+
+.right {
+    margin-left: 180px;
+    padding: 20px 20px 0 20px;
+}
+
+#mannnv {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#mannnv li {
+        list-style: none;
+        float: left;
+        margin-left: 20px;
+}
+
+#mannnv li a {
+            color: #0000FF;
+            text-decoration: none;
+}
+
+#mannnv li a:hover {
+                color: #c00;
+}
+
+.contitle {
+    font-size: 14px;
+    margin: 0;
+    margin: 5px 0;
+}
+
+.conctrl {
+    width: 100%;
+    height: 35px;
+    background: url(../imgs/1/repeat_x3.png) 0 -200px repeat-x;
+    padding-top: 5px;
+}
+
+.conctrl ul {
+        margin: 0 30px;
+        padding: 0;
+        list-style:: none;
+}
+
+.conctrl ul li {
+            float: left;
+}
+
+.conctrl ul li span {
+                display: block;
+                HEIGHT: 35px;
+                WIDTH: 101px;
+                CURSOR: pointer;
+                text-align: center;
+                line-height: 38px;
+}
+
+.adminiitemselected {
+    color: #247185;
+    background: url(../imgs/admin_ul.png) no-repeat center bottom;
+}
+
+.conctrl1 {
+    width: 100%;
+    height: 35px;
+    background: url(../imgs/1/repeat_x3.png) 0 -240px repeat-x;
+    margin-top: 5px;
+}
+
+.theth {
+    border-left: 1px solid #dcdcdc;
+}
+
+.gridview th {
+    height: 28px;
+    line-height: 28px;
+    font-weight: normal;
+    background: #f7f7f7;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 2px;
+    font-size: 14px;
+}
+
+.gridview td {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed #dcdcdc;
+    font-size: 14px;
+}
+/*分页*/
+.anpager {
+    padding-top: 10px;
+    font-size:14px;
+    border-bottom:0px;
+}
+
+.anpager a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #005590;
+        margin-left: 2px;
+}
+
+ .anpager a:hover {
+            color: #c00;
+}
+
+    .anpager #anp_btn {
+        height:20px;
+        margin:0;
+        padding:0;
+    }
+
+.cpb {
+    color: #c00;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.maindiv p{
+    margin:20px 50px;
+}
+.anpager1 td {
+    color:#999;
+    padding-left:9px;
+}
+.anpager1 td a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #005590;
+}
+ .anpager1 td a:hover {
+            color: #c00;
+}
+#maindiv3 table{margin-top:10px;}
+#maindiv3 td{ font-size:14px; padding:5px;}

@@ -1,0 +1,58 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+        body {
+            font-size:14px; margin:0; padding:0; background:url(../imgs/lztdzy.jpg) center 200px no-repeat;
+        }
+		
+		a{ color:#000; text-decoration:none;}
+		a:hover{ color:#c00;}
+		
+		.content{ margin:0; padding:0; clear:both;}
+		.title{ height:100px; background:#0070c1; }
+		.the{color:#fff;font-size:20px; font-family:微软雅黑;line-height:100px; }
+		.left{float:left; position:relative;}
+		.nv{float:left; margin:26px 0 0 100px; bottom:0; width:500px;}
+		.imgcls{ display:block; float:left; margin:25px 10px 0 20px;}
+        .nv ul {
+            margin:0px; padding:0px; bottom:0;
+        }
+        .nv ul li {
+			float:left;
+            list-style:none;
+            text-align:center;
+			width:96px;
+			height:74px;
+        }
+		
+		.nv ul li img{
+			margin-top:2px;
+		}
+		
+		.quit{float:right; margin:15px 30px 0 0; font-size:16px;}
+		.quit a{ color:#fff; text-decoration:none;}
+		.quit a:hover{ text-decoration:underline;}
+		
+		.selected{background:#fff;border-radius:5px 5px 0 0;}
+		.selected a{ color:#000; text-decoration:none;}
+		.selected a:hover{ color:#c00;}
+		
+		.noselect{background:#0070c1;border-radius:0px 0px 0 0;}
+		.noselect a{color:#fff; text-decoration:none;}
+		.noselect a:hover{ color:#aaa;}
+		
+		.right{ margin:5px 10px;}
+		.xy{ height:50px; line-height:50px;position:relative; border-bottom:1px dashed #aaa;width: 100%;}
+		.xyleft{ float:left; width:150px; left:0; line-height:50px;position: absolute;}
+		.xycenter{ margin:0px 150px;width:auto; text-align:center; line-height:50px;}
+		.xyright{ float:right; width:150px; line-height:50px;position:absolute; right:0;top: 0; text-align:center;}
+		.themian{padding:20px 0;position:relative;}
+		.gvData th{ height:20px;border:1px solid #338888;font-size:12px;font-family:Arial, Helvetica, sans-serif}
+		.gvData td{ height:22px;border:1px solid #336666;font-size:12px;font-family:Arial, Helvetica, sans-serif}
+		.li{line-height:180%;}
+
+		.showtab{border-collapse:collapse; width:100%;}
+		.showtab th, .showtab td{border: 1px solid #aaa; padding:0.375em}
+		.dialogtitle{ font-size:16px; text-align:center;}
+
+		.sorry{margin-top:150px; text-align:center; width:auto; color:#ffbb0e;}
